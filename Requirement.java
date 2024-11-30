@@ -1,4 +1,4 @@
-package rqcode.concepts;
+
 
 import rqcode.concepts.Enforceable.EnforcementStatus;
 
@@ -13,16 +13,6 @@ public abstract class Requirement implements Checkable{
     private String statement;
 
     private CheckStatus lastCheckStatus=CheckStatus.INCOMPLETE;
-
-    private EnforcementStatus lastEnforcementStatus=EnforcementStatus.INCOMPLETE;
-
-    public EnforcementStatus getLastEnforcementStatus() {
-        return lastEnforcementStatus;
-    }
-
-    public void setLastEnforcementStatus(EnforcementStatus lastEnforcementStatus) {
-        this.lastEnforcementStatus = lastEnforcementStatus;
-    }
 
     public CheckStatus getLastCheckStatus() {
         return lastCheckStatus;
