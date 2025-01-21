@@ -27,8 +27,9 @@ Before starting, ensure you have the following:
 - Basic knowledge of Java programming.
 
 ## Security Requirement Example:
-
+```text
 The system must lock a user’s account after 5 consecutive failed login attempts.
+```
 ___
 
 ## Security Requirement Example:
@@ -74,15 +75,17 @@ Choose an action:
 2. Reset failed attempts
 3. Check lockout status
 4. Exit
+```
 
 ### Expected Results
 
 After running the Main class, you should observe the following behavior:
-
+```text
 1. **Simulate Failed Login**: Simulate a failed login by entering `1` multiple times.
 2. **Check Lockout Status**: After 5 consecutive failed attempts, check the lockout status by entering `3`. The system should respond with “Account is locked.”
 3. **Reset Attempts**: Reset the failed attempts by entering `2`, then check the status again by entering `3` to confirm the account is no longer locked.
 4. **Exit Program**: Exit the program by entering `4`.
+```
 
 ### Final Step: Provide Feedback
 
