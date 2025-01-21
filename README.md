@@ -51,3 +51,29 @@ To begin, clone the RQCODE GitHub repository to your local machine:
 **Requirement Example:**
 ```text
 The system must lock a user’s account after 5 consecutive failed login attempts.
+
+### 4. Run the Main Class
+- The Main class is pre-implemented. Run it following the [RQCODE User Guide](https://dorian-lead-ad4.notion.site/Tutorial-4dc766e08aac4aa588271f1fb0768e50).
+- In the terminal, you should be prompted with the following options:
+
+```text
+Choose an action:
+1. Simulate failed login attempt
+2. Reset failed attempts
+3. Check lockout status
+4. Exit
+
+### Expected Results
+
+After running the Main class, you should observe the following behavior:
+
+1. **Simulate Failed Login**: Simulate a failed login by entering `1` multiple times.
+2. **Check Lockout Status**: After 5 consecutive failed attempts, check the lockout status by entering `3`. The system should respond with “Account is locked.”
+3. **Reset Attempts**: Reset the failed attempts by entering `2`, then check the status again by entering `3` to confirm the account is no longer locked.
+4. **Exit Program**: Exit the program by entering `4`.
+
+### Final Step: Provide Feedback
+
+We value your feedback! After completing the implementation, please take a moment to fill out the survey:
+
+[Pass the Survey](https://forms.gle/GDDF1d9xu7pFcua9A)
