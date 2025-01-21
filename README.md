@@ -26,13 +26,11 @@ Before starting, ensure you have the following:
 - A Java development environment.
 - Basic knowledge of Java programming.
 
-## Security Requirement Implementation
-
-### Requirement Example:
+## Security Requirement Example:
 ```text
 The system must lock a user’s account after 5 consecutive failed login attempts.
 
-### Task:
+## Task:
 
 Your task is to implement this security requirement as a new Java class named `PasswordLockoutRequirement`. This class should:
 - Inherit from the `Requirement` class provided in the RQCODE framework.
