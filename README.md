@@ -29,6 +29,7 @@ Before starting, ensure you have the following:
 ## Security Requirement Example:
 ```text
 The system must lock a user’s account after 5 consecutive failed login attempts.
+```text
 
 ## Security Requirement Example:
 
