@@ -27,9 +27,9 @@ Before starting, ensure you have the following:
 - Basic knowledge of Java programming.
 
 ## Security Requirement Example:
-```text
+
 The system must lock a user’s account after 5 consecutive failed login attempts.
-```text
+___
 
 ## Security Requirement Example:
 
