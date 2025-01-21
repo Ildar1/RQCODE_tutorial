@@ -30,7 +30,7 @@ Before starting, ensure you have the following:
 ```text
 The system must lock a user’s account after 5 consecutive failed login attempts.
 
-## Task:
+## Security Requirement Example:
 
 Your task is to implement this security requirement as a new Java class named `PasswordLockoutRequirement`. This class should:
 - Inherit from the `Requirement` class provided in the RQCODE framework.
