@@ -48,7 +48,7 @@ To begin, clone the RQCODE GitHub repository to your local machine:
 - Visit the repository: [RQCODE GitHub Repository](https://github.com/VeriDevOps/RQCODE).
 - Follow this [GitHub tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) if you're unsure how to clone a repository.
 
-### 2. Open the Online VS Code IDE
+### 2. Open the Online Visual Studio Code IDE
 - Navigate to the cloned repository folder on your local machine.
 - Press the `.` key to open the repository in an online VS Code IDE.
 
