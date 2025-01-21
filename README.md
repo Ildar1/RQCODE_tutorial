@@ -61,7 +61,11 @@ To begin, clone the RQCODE GitHub repository to your local machine:
 
 
 ### 4. Run the Main Class
-- The Main class is pre-implemented. Run it following the [RQCODE User Guide](https://dorian-lead-ad4.notion.site/Tutorial-4dc766e08aac4aa588271f1fb0768e50).
+- The Main class is pre-implemented. Run it following the [GitHub Guide](https://github.com/VeriDevOps/RQCODE).
+- Install the recommended "Extension Pack for Java":
+  <img width="394" alt="image" src="https://github.com/user-attachments/assets/b50f9aa7-571c-4652-9f7e-0dd05e9468d6" />
+- After successful installation, you will see this window:
+  <img width="841" alt="image" src="https://github.com/user-attachments/assets/964a4ac9-83f7-43ee-8c9b-7d30f240cca5" />
 - In the terminal, you should be prompted with the following options:
 
 ```text
