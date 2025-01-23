@@ -87,7 +87,7 @@ After running the Main class, you should observe the following behavior:
 4. **Exit Program**: Exit the program by entering `4`.
 ```
 
-### Final Step: Provide Feedback
+### Final Step: Your Feedback
 
 We value your feedback! After completing the implementation, please take a moment to fill out the survey:
 
