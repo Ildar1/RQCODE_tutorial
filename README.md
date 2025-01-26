@@ -48,9 +48,17 @@ To begin, clone the RQCODE GitHub repository to your local machine:
 - Visit the repository: [RQCODE GitHub Repository](https://github.com/VeriDevOps/RQCODE).
 - Follow this [GitHub tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) if you're unsure how to clone a repository.
 
-### 2. Open the Online Visual Studio Code IDE
+### 2. Open the Web Editor 
 - Navigate to the cloned repository folder on your local machine.
 - Press the `.` key to open the repository in an online VS Code IDE.
+- Click **Run and Debug** and then **Continue Working On**  
+  <img width="342" alt="image" src="https://github.com/user-attachments/assets/a5d844f3-bb1d-4703-95aa-da36ace2629e" />
+- Click **Create New Code Space**  
+  <img width="604" alt="image" src="https://github.com/user-attachments/assets/fcd8a673-7b5c-4ab0-b634-fe784063ca10" />
+- Choose **2 cores, 8 GB RAM, 32 GB Storage**  
+  <img width="605" alt="image" src="https://github.com/user-attachments/assets/a79c49b7-5747-4060-874e-f17c40b8a350" />
+
+
 
 ### 3. Implement the Password Lockout Requirement
 - Create a new Java class named **`PasswordLockoutRequirement`** (ensure the name matches exactly).
@@ -81,10 +89,10 @@ Choose an action:
 
 After running the Main class, you should observe the following behavior:
 ```text
-1. **Simulate Failed Login**: Simulate a failed login by entering `1` multiple times.
-2. **Check Lockout Status**: After 5 consecutive failed attempts, check the lockout status by entering `3`. The system should respond with “Account is locked.”
-3. **Reset Attempts**: Reset the failed attempts by entering `2`, then check the status again by entering `3` to confirm the account is no longer locked.
-4. **Exit Program**: Exit the program by entering `4`.
+1. Simulate Failed Login: Simulate a failed login by entering `1` multiple times.
+2. Check Lockout Status: After 5 consecutive failed attempts, check the lockout status by entering `3`. The system should respond with “Account is locked.”
+3. Reset Attempts: Reset the failed attempts by entering `2`, then check the status again by entering `3` to confirm the account is no longer locked.
+4. Exit Program*: Exit the program by entering `4`.
 ```
 
 ### Final Step: Your Feedback
