@@ -21,10 +21,30 @@ This task demonstrates how to use the RQCODE  to implement a security requiremen
 ---
 
 ## Prerequisites
+
 Before starting, ensure you have the following:
-- Access to the RQCODE repository.
-- A Java development environment.
+- Access to the RQCODE tutorial repository.
 - Basic knowledge of Java programming.
+
+### 1. Make a Fork of the GitHub Repository
+To begin, make a fork of the RQCODE GitHub tutorial repository:
+- Visit the repository: [RQCODE Tutorial GitHub Repository](https://github.com/Ildar1/RQCODE_tutorial).
+- Follow this [GitHub tutorial on how to fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) if you're unsure how to fork a repository.
+
+### 2. Open the Web Editor
+- Navigate to the cloned repository folder on your local machine.
+- Press the `.` key to open the repository in an online VS Code IDE.
+- Click **Run and Debug** and then **Continue Working On**  
+  <img width="342" alt="image" src="https://github.com/user-attachments/assets/a5d844f3-bb1d-4703-95aa-da36ace2629e" />
+- Click **Create New Code Space**  
+  <img width="604" alt="image" src="https://github.com/user-attachments/assets/fcd8a673-7b5c-4ab0-b634-fe784063ca10" />
+- Choose **2 cores, 8 GB RAM, 32 GB Storage**  
+  <img width="605" alt="image" src="https://github.com/user-attachments/assets/a79c49b7-5747-4060-874e-f17c40b8a350" />
+
+### 3. How to Make a Pull Request
+Follow this [GitHub guide on creating a Pull Request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). 
+
+It is important to create a Pull Request, as you will need to send the link to your Pull Request in the survey as proof of your work.
 
 ## Security Requirement Example:
 ```text
@@ -43,24 +63,6 @@ Your task is to implement this security requirement as a new Java class named `P
 
 ## Step-by-Step Instructions
 
-### 1. Clone the GitHub Repository
-To begin, clone the RQCODE GitHub repository to your local machine:
-- Visit the repository: [RQCODE GitHub Repository](https://github.com/VeriDevOps/RQCODE).
-- Follow this [GitHub tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) if you're unsure how to clone a repository.
-
-### 2. Open the Web Editor 
-- Navigate to the cloned repository folder on your local machine.
-- Press the `.` key to open the repository in an online VS Code IDE.
-- Click **Run and Debug** and then **Continue Working On**  
-  <img width="342" alt="image" src="https://github.com/user-attachments/assets/a5d844f3-bb1d-4703-95aa-da36ace2629e" />
-- Click **Create New Code Space**  
-  <img width="604" alt="image" src="https://github.com/user-attachments/assets/fcd8a673-7b5c-4ab0-b634-fe784063ca10" />
-- Choose **2 cores, 8 GB RAM, 32 GB Storage**  
-  <img width="605" alt="image" src="https://github.com/user-attachments/assets/a79c49b7-5747-4060-874e-f17c40b8a350" />
-
-
-
-### 3. Implement the Password Lockout Requirement
 - Create a new Java class named **`PasswordLockoutRequirement`** (ensure the name matches exactly).
 - The class must inherit from the `Requirement` class provided by the RQCODE.
 - Implement the logic to:
