@@ -88,12 +88,12 @@ Choose an action:
 ### Expected Results
 
 After running the Main class, you should observe the following behavior:
-```text
-1. Simulate Failed Login: Simulate a failed login by entering `1` multiple times.
-2. Check Lockout Status: After 5 consecutive failed attempts, check the lockout status by entering `3`. The system should respond with “Account is locked.”
-3. Reset Attempts: Reset the failed attempts by entering `2`, then check the status again by entering `3` to confirm the account is no longer locked.
-4. Exit Program*: Exit the program by entering `4`.
-```
+
+1. Enter `1`: Simulate a failed login attempt multiple times.
+2. Enter `3`: Check the lockout status after 5 consecutive failed attempts. The system should respond with “Account is locked.”
+3. Enter `2`: Reset the failed attempts. Then, enter `3` again to verify that the account is no longer locked.
+4. Enter `4`: Exit the program.
+
 
 ### Final Step: Your Feedback
 
