@@ -27,7 +27,7 @@ Before starting, ensure you have the following:
 - Basic knowledge of Java programming.
 
 ### Get familiar with the following resources:
-- RQCODE basicshttps://dorian-lead-ad4.notion.site/ReQuirements-as-CODE-RQCODE-Concept-2c5409de940247e28bf13996eb08e866
+- RQCODE basics https://dorian-lead-ad4.notion.site/ReQuirements-as-CODE-RQCODE-Concept-2c5409de940247e28bf13996eb08e866
 - Tutorial with Passowrd Policy implementation https://dorian-lead-ad4.notion.site/Tutorial-4dc766e08aac4aa588271f1fb0768e50
 
 ### Make a Fork of the GitHub Repository
