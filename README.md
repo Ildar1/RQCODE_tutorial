@@ -26,6 +26,8 @@ Before starting, ensure you have the following:
 - Access to the RQCODE tutorial repository.
 - Basic knowledge of Java programming.
 
+### Get familiar with [RQCODE basics]([url](https://dorian-lead-ad4.notion.site/ReQuirements-as-CODE-RQCODE-Concept-2c5409de940247e28bf13996eb08e866)) and [tutorial with Passowrd Policy implementation]([url](https://dorian-lead-ad4.notion.site/Tutorial-4dc766e08aac4aa588271f1fb0768e50)) 
+
 ### Make a Fork of the GitHub Repository
 To begin, make a fork of the RQCODE GitHub tutorial repository:
 - Visit the repository: [RQCODE Tutorial GitHub Repository](https://github.com/Ildar1/RQCODE_tutorial).
