@@ -79,10 +79,6 @@ Your implementation should include the following methods:
 - **`CheckStatus check()`**  
   - Implements the `Requirement` class’s `check()` method to evaluate whether the lockout condition has been met.
 
-- **Enforce a Lockout Policy:**  
-  - Lock user accounts after **5 consecutive failed login attempts**.
-  - Implement a **temporary lockout period** before allowing further login attempts.
-
 ### 3. Use an Example for Reference
 For guidance, refer to the implementation of [PasswordUpdateRequirement](https://github.com/Ildar1/RQCODE_tutorial/blob/main/PasswordUpdateRequirement). This example demonstrates how to structure and implement a security requirement in RQCODE.
 
