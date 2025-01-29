@@ -77,7 +77,7 @@ Your implementation should include the following methods:
   - Resets the failed login count for a user after a successful login or manual reset.
 
 - **`CheckStatus check()`**  
-  - Implements the `Requirement` class’s `check()` method to evaluate whether the lockout condition has been met.
+  - Implements `check()` method to evaluate whether the lockout condition has been met.
 
 ### 3. Use an Example for Reference
 For guidance, refer to the implementation of [PasswordUpdateRequirement](https://github.com/Ildar1/RQCODE_tutorial/blob/main/PasswordUpdateRequirement). This example demonstrates how to structure and implement a security requirement in RQCODE.
