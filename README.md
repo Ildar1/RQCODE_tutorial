@@ -26,9 +26,9 @@ Before starting, ensure you have the following:
 - Access to the RQCODE tutorial repository.
 - Basic knowledge of Java programming.
 
-### Get familiar with the following resources:
-- RQCODE basics https://dorian-lead-ad4.notion.site/ReQuirements-as-CODE-RQCODE-Concept-2c5409de940247e28bf13996eb08e866
-- Tutorial with Passowrd Policy implementation https://dorian-lead-ad4.notion.site/Tutorial-4dc766e08aac4aa588271f1fb0768e50
+### Get Familiar with the Following Resources:
+- [RQCODE Basics](https://dorian-lead-ad4.notion.site/ReQuirements-as-CODE-RQCODE-Concept-2c5409de940247e28bf13996eb08e866)
+- [Tutorial with Password Policy Implementation](https://dorian-lead-ad4.notion.site/Tutorial-4dc766e08aac4aa588271f1fb0768e50)
 
 ### Make a Fork of the GitHub Repository
 To begin, make a fork of the RQCODE GitHub tutorial repository:
@@ -56,23 +56,37 @@ The system must lock a user’s account after 5 consecutive failed login attempt
 ```
 ___
 
-## Task: -> move to Step-by-Step
-
-Your task is to implement this security requirement as a new Java class named `PasswordLockoutRequirement`. This class should:
-- Inherit from the `Requirement` class provided in the RQCODE framework.
-- Track failed login attempts.
-- Lock the user account after 5 consecutive failed login attempts.
-- Provide a method to reset failed login attempts.
----
-
 ## Step-by-Step Instructions
 
+Your task is to implement a security requirement that enforces password lockout after repeated failed login attempts. Follow the steps below carefully:
+
+### 1. Create the `PasswordLockoutRequirement` Class
 - Create a new Java class named **`PasswordLockoutRequirement`** (ensure the name matches exactly).
-- The class must inherit from the `Requirement` class provided by the RQCODE.
-- Implement the logic to:
-  - Lock user accounts after a defined number of failed login attempts.
-  - Track the number of failed login attempts and reset them as needed.
-  - Include a temporary lockout period.
+- This class must inherit from the `Requirement` class provided by the RQCODE framework.
+
+### 2. Implement the Required Functionality
+Your implementation should include the following methods:
+
+- **`void recordFailedLogin(String username)`**  
+  - Increments the failed login count for a specific user.
+  
+- **`boolean isAccountLocked(String username)`**  
+  - Checks if the account is locked based on the number of failed attempts.
+  
+- **`void resetFailedAttempts(String username)`**  
+  - Resets the failed login count for a user after a successful login or manual reset.
+
+- **`CheckStatus check()`**  
+  - Implements the `Requirement` class’s `check()` method to evaluate whether the lockout condition has been met.
+
+- **Enforce a Lockout Policy:**  
+  - Lock user accounts after **5 consecutive failed login attempts**.
+  - Implement a **temporary lockout period** before allowing further login attempts.
+
+### 3. Use an Example for Reference
+For guidance, refer to the implementation of [PasswordUpdateRequirement](https://github.com/Ildar1/RQCODE_tutorial/blob/main/PasswordUpdateRequirement). This example demonstrates how to structure and implement a security requirement in RQCODE.
+
+By following these steps, you will successfully integrate the password lockout functionality into the RQCODE framework.
 
 ### Example Implementation
 For reference, you can check the implementation of a similar requirement in the [PasswordUpdateRequirement](https://github.com/Ildar1/RQCODE_tutorial/blob/main/PasswordUpdateRequirement). You might use it as a guide for your own implementation.
