@@ -50,7 +50,7 @@ Follow this [GitHub guide on creating a Pull Request from a fork](https://docs.g
 
 It is important to create a Pull Request, as you will need to send the link to your Pull Request in the survey as proof of your work.
 
-## Security Requirement Example:
+## Security Requirement:
 ```text
 The system must lock a user’s account after 5 consecutive failed login attempts.
 ```
@@ -58,7 +58,7 @@ ___
 
 ## Step-by-Step Instructions
 
-Your task is to implement a security requirement that enforces password lockout after repeated failed login attempts. Follow the steps below carefully:
+Your task is to implement the Security Requirement that enforces password lockout after 5 failed login attempts. Follow the steps below:
 
 ### 1. Implement the Required Functionality  
 Your implementation should include the following functionality:
