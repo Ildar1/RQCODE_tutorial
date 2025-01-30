@@ -60,20 +60,17 @@ ___
 
 Your task is to implement a security requirement that enforces password lockout after repeated failed login attempts. Follow the steps below carefully:
 
-### 1. Create the `PasswordLockoutRequirement` Class
-- Create a new Java class named **`PasswordLockoutRequirement`** (ensure the name matches exactly).
-- This class must inherit from the `Requirement` class provided by  RQCODE framework.
-
-### 2. Implement the Required Functionality  
+### 1. Implement the Required Functionality  
 Your implementation should include the following functionality:
+- Implement the class **`PasswordLockoutRequirement`** (ensure the name matches exactly). It should inherit from the [`Requirement`](https://github.com/Ildar1/RQCODE_tutorial/blob/main/Requirement.java) class.  
 
-- This class should inherit from the [`Requirement`](https://github.com/Ildar1/RQCODE_tutorial/blob/main/Requirement.java) class.  
-- Track and increment the count of failed login attempts for a specific user.  
-- Determine whether an account is locked after 5 failed login attempts.  
-- Implement a way to reset failed login attempts after a successful login or manual reset.  
-- Evaluate whether the lockout condition has been met and return the appropriate status using the `check()` method.    
+- In this class, implement the following methods:  
+  - Track and increment the count of failed login attempts for a specific user.  
+  - Determine whether an account is locked after **5 consecutive failed login attempts**.  
+  - Provide a way to reset failed login attempts after a successful login or manual reset.  
+  - Evaluate whether the lockout condition has been met and return the appropriate status using the `check()` method.    
 
-### 3. Use an Example for Reference
+### 2. Use an Example for Reference
 For guidance, refer to the implementation of [PasswordUpdateRequirement](https://github.com/Ildar1/RQCODE_tutorial/blob/main/PasswordUpdateRequirement). This example demonstrates how to structure and implement a security requirement in RQCODE.
 
 By following these steps, you will successfully integrate the password lockout functionality into the RQCODE framework.
