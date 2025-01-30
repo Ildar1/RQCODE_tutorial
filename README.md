@@ -76,7 +76,7 @@ For guidance, refer to the implementation of [PasswordUpdateRequirement](https:/
 By following these steps, you will successfully integrate the password lockout functionality into the RQCODE framework.
 
 ### Example Implementation
-For reference, you can check the implementation of a requirement in the [PasswordLockoutRequirement](https://github.com/Ildar1/RQCODE_tutorial/blob/main/PasswordLockoutRequirement.java). You might use it as a guide for your own implementation.
+For reference, you can check the implementation of a requirement in the [PasswordLockoutRequirement](https://github.com/VeriDevOps/RQCODE/blob/master/src/main/java/rqcode/tutorial/tutorial_new/PasswordLockoutRequirement.java). You might use it as a guide for your own implementation.
 
 
 ### Run the Main Class
