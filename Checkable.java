@@ -1,6 +1,3 @@
-package rqcode.concepts;
-
-
 
 /**
  * Implementations of this interface are requirements that can be checked programmatically through the check function.
