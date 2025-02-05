@@ -1,7 +1,3 @@
-package rqcode.tutorial.tutorial_new;
-
-import rqcode.concepts.Checkable;
-
 import java.util.Scanner;
 
 public class Main {
