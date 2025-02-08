@@ -1,7 +1,4 @@
 
-
-import rqcode.concepts.Enforceable.EnforcementStatus;
-
 /**
  * The RQCODE requirement class.
  */

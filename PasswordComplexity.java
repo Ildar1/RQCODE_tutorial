@@ -1,7 +1,3 @@
-
-import rqcode.concepts.Requirement;
-
-
 public class PasswordComplexity extends Requirement {
 
     private String password;
