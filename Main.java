@@ -10,6 +10,7 @@ public class Main {
 
         while (true) {
             System.out.println("\nChoose an action:");
+            System.out.println("0. Simulate correct login attempt");
             System.out.println("1. Simulate failed login attempt");
             System.out.println("2. Reset failed attempts");
             System.out.println("3. Check lockout status");
@@ -18,6 +19,11 @@ public class Main {
             int choice = scanner.nextInt();
 
             switch (choice) {
+                case 0:
+                    lockoutRequirement.recordCorrectAttempt();
+                    System.out.println("Correct attempt recorded.");
+                    break;
+
                 case 1:
                     lockoutRequirement.recordFailedAttempt();
                     System.out.println("Failed attempt recorded.");
