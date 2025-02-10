@@ -31,6 +31,8 @@ public class Main {
                 case 3:
                     Checkable.CheckStatus status = lockoutRequirement.check();
                     System.out.println("Password lockout requirement check: " + status);
+                    if (status == Checkable.CheckStatus.FAIL)
+                        System.out.println("Account is locked.");
                     break;
 
                 case 4:
