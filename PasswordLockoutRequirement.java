@@ -4,7 +4,7 @@ import java.util.Map;
 public class PasswordLockoutRequirement extends Requirement {
 
     private static final int MAX_FAILED_ATTEMPTS = 5; // Maximum allowed failed attempts
-    private static final long LOCKOUT_DURATION_MS = 1 * 10 * 1000; // Lockout duration in milliseconds (15 minutes)
+    private static final long LOCKOUT_DURATION_MS = 1 * 10 * 1000; // Lockout duration in milliseconds (10 seconds)
     private final Map<String, UserLoginStatus> userStatusMap = new HashMap<>();
     private final String username;
 
@@ -31,10 +31,10 @@ public class PasswordLockoutRequirement extends Requirement {
                 : Checkable.CheckStatus.PASS;
     }
 
-    public void recordCorrectAttempt() {
-        if (this.check() != Checkable.CheckStatus.FAIL)
-            userStatusMap.get(username).resetFailedAttempts();
-    }
+    // public void recordCorrectAttempt() {
+    //     if (this.check() != Checkable.CheckStatus.FAIL)
+    //         userStatusMap.get(username).resetFailedAttempts();
+    // }
 
     public void recordFailedAttempt() {
         userStatusMap.get(username).incrementFailedAttempts();
@@ -78,7 +78,6 @@ public class PasswordLockoutRequirement extends Requirement {
         }
 
         public void resetLockout() {
-            this.resetFailedAttempts();
             lockoutStartTime = 0;
         }
     }
