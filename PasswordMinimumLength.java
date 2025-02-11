@@ -1,6 +1,4 @@
 
-import rqcode.concepts.Requirement;
-
 public class PasswordMinimumLength extends Requirement {
     private static final int MIN_LENGTH = 8;
     private static final int MAX_LENGTH = 64;

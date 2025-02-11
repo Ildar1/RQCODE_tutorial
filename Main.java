@@ -19,12 +19,12 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    lockoutRequirement.recordFailedAttempt();
+                    lockoutRequirement.countFail();
                     System.out.println("Failed attempt recorded.");
                     break;
 
                 case 2:
-                    lockoutRequirement.resetFailedAttempts();
+                    lockoutRequirement.resetFail();
                     System.out.println("Failed attempts reset.");
                     break;
 
