@@ -5,7 +5,7 @@ public class PasswordLockoutRequirement extends Requirement {
     private String username;
     
     public PasswordLockoutRequirement(String username) {
-        super("Requirement 2: Failed password attempts lockout Rquirement");
+        super("Requirement 2: The system must lock a user’s account after " + MAX_FAILED_ATTEMPTS + " consecutive failed login attempts.");
         this.failedAttempts = STARTING_FAILED_ATTEMPTS;
         this.username = username;
     }
