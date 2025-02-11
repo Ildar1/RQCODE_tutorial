@@ -1,3 +1,6 @@
+import java.util.HashMap;
+
+
 public class PasswordLockoutRequirement extends Requirement {
     private final Map<String, int> username2attempts = new HashMap<>();
     private static final int MAX_ATTEMPTS = 5;
