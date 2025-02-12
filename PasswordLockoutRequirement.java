@@ -1,6 +1,3 @@
-package rqcode.tutorial.tutorial_new;
-
-
 public class PasswordLockoutRequirement extends Requirement {
     /**
      * TODO Track and increment the count of failed login attempts for a specific user.
